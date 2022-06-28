@@ -34,7 +34,10 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
+.icanchangethis {
+  max-width: 500px;
+  max-height: 500px;
+}
 @media print {
   *,
   *::before,
@@ -97,6 +100,9 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  max-width: 500px;
+  max-height: 500px;
+  background-color: #e5dbeb
 }
 
 html {
@@ -106,6 +112,7 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent;
+  background-color: #e5dbeb
 }
 
 @-ms-viewport {
@@ -114,6 +121,7 @@ html {
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
+  background-color: #e5dbeb
 }
 
 body {
@@ -124,7 +132,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #e5dbeb
 }
 
 [tabindex="-1"]:focus {
@@ -133,6 +141,8 @@ body {
 
 hr {
   box-sizing: content-box;
+  /* max-width: 500px;
+  max-height: 500px; */
   height: 0;
   overflow: visible;
 }
@@ -145,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  
 }
 
 abbr[title],
@@ -266,6 +277,8 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  max-width: 500px;
+  max-height: 500px;
 }
 
 svg:not(:root) {
@@ -283,6 +296,7 @@ summary,
 textarea {
   -ms-touch-action: manipulation;
       touch-action: manipulation;
+      
 }
 
 table {
@@ -354,6 +368,8 @@ button::-moz-focus-inner,
 input[type="radio"],
 input[type="checkbox"] {
   box-sizing: border-box;
+  max-width: 500px;
+  max-height: 500px;
   padding: 0;
 }
 

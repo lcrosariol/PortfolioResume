@@ -10,6 +10,8 @@
 
 html {
   box-sizing: border-box;
+  max-width: 500px;
+  max-height: 500px;
   -ms-overflow-style: scrollbar;
 }
 
