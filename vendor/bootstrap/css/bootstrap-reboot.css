@@ -10,7 +10,6 @@
 *::after {
   box-sizing: border-box;
   max-width: 500px;
-  max-height: 500px;
 }
 
 html {
@@ -51,8 +50,6 @@ body {
 
 hr {
   box-sizing: content-box;
-    /* max-width: 500px;
-    max-height: 500px; */
   height: 0;
   overflow: visible;
 }
@@ -210,8 +207,8 @@ table {
 }
 
 caption {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  /* padding-top: 0.75rem;
+  padding-bottom: 0.75rem; */
   color: #868e96;
   text-align: left;
   caption-side: bottom;
@@ -274,8 +271,6 @@ button::-moz-focus-inner,
 input[type="radio"],
 input[type="checkbox"] {
   box-sizing: border-box;
-  max-width: 500px;
-  max-height: 500px;
   padding: 0;
 }
 

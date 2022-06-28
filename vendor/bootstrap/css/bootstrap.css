@@ -100,8 +100,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  max-width: 500px;
-  max-height: 500px;
   background-color: #e5dbeb
 }
 
@@ -141,8 +139,6 @@ body {
 
 hr {
   box-sizing: content-box;
-  /* max-width: 500px;
-  max-height: 500px; */
   height: 0;
   overflow: visible;
 }
@@ -304,8 +300,8 @@ table {
 }
 
 caption {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  /* padding-top: 0.75rem;
+  padding-bottom: 0.75rem; */
   color: #868e96;
   text-align: left;
   caption-side: bottom;
@@ -368,8 +364,6 @@ button::-moz-focus-inner,
 input[type="radio"],
 input[type="checkbox"] {
   box-sizing: border-box;
-  max-width: 500px;
-  max-height: 500px;
   padding: 0;
 }
 
@@ -521,7 +515,7 @@ small,
 
 mark,
 .mark {
-  padding: 0.2em;
+  /* padding: 0.2em; */
   background-color: #fcf8e3;
 }
 
@@ -1873,7 +1867,7 @@ pre code {
   color: #495057;
   background-color: #fff;
   background-image: none;
-  background-clip: padding-box;
+  /* background-clip: padding-box; */
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -1932,36 +1926,36 @@ select.form-control:focus::-ms-value {
 }
 
 .col-form-label {
-  padding-top: calc(0.375rem + 1px);
-  padding-bottom: calc(0.375rem + 1px);
+  /* padding-top: calc(0.375rem + 1px);
+  padding-bottom: calc(0.375rem + 1px); */
   margin-bottom: 0;
   line-height: 1.5;
 }
 
 .col-form-label-lg {
-  padding-top: calc(0.5rem + 1px);
-  padding-bottom: calc(0.5rem + 1px);
+  /* padding-top: calc(0.5rem + 1px);
+  padding-bottom: calc(0.5rem + 1px); */
   font-size: 1.25rem;
   line-height: 1.5;
 }
 
 .col-form-label-sm {
-  padding-top: calc(0.25rem + 1px);
-  padding-bottom: calc(0.25rem + 1px);
+  /* padding-top: calc(0.25rem + 1px);
+  padding-bottom: calc(0.25rem + 1px); */
   font-size: 0.875rem;
   line-height: 1.5;
 }
 
 .col-form-legend {
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
+  /* padding-top: 0.375rem;
+  padding-bottom: 0.375rem; */
   margin-bottom: 0;
   font-size: 1rem;
 }
 
 .form-control-plaintext {
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
+  /* padding-top: 0.375rem;
+  padding-bottom: 0.375rem; */
   margin-bottom: 0;
   line-height: 1.5;
   background-color: transparent;
@@ -2144,8 +2138,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   z-index: 5;
   display: none;
   width: 250px;
-  padding: .5rem;
-  margin-top: .1rem;
+  /* padding: .5rem;
+  margin-top: .1rem; */
   font-size: .875rem;
   line-height: 1;
   color: #fff;
@@ -2261,8 +2255,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   }
   .form-inline .form-check-input {
     position: relative;
-    margin-top: 0;
-    margin-right: 0.25rem;
+    /* margin-top: 0;
+    margin-right: 0.25rem; */
     margin-left: 0;
   }
   .form-inline .custom-control {
@@ -2296,7 +2290,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
       -ms-user-select: none;
           user-select: none;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
+  /* padding: 0.375rem 0.75rem; */
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
@@ -7359,7 +7353,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   }
   .pt-sm-2,
   .py-sm-2 {
-    padding-top: 0.5rem !important;
+    /* padding-top: 0.5rem !important; */
   }
   .pr-sm-2,
   .px-sm-2 {
@@ -7378,7 +7372,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   }
   .pt-sm-3,
   .py-sm-3 {
-    padding-top: 1rem !important;
+    /* padding-top: 1rem !important; */
   }
   .pr-sm-3,
   .px-sm-3 {
