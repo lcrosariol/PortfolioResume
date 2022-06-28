@@ -31,15 +31,26 @@ h1 {
 h2 {
   font-size: 3.5rem; }
 
-#projects img  {
-  max-height: 100px;
-  max-width: 100px;
-}  
+/* #projects img  {
+  max-height: 100px !important;
+  max-width: 100px !important;
+}   */
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem; }
+
+/* .list-inline-item li {
+  height: 200px !important;
+  width: 200px !important;
+} */
+/* 
+.fixicons li {
+  width: 500px !important;
+  height: 500px !important;
+} */
 
 .list-social-icons a {
   color: #495057; }
@@ -49,6 +60,7 @@ h2 {
     font-size: 1.75rem; }
 
 .list-icons {
+
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
     color: #BD5D38; }
